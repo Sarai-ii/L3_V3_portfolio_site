@@ -81,7 +81,7 @@ strong:hover{
     color: #fca311;
 }
 .skills{
-    background-color: #e5e5e5;
+    background-color: #e5e5e58e;
     color: #000;
     display: flex;
     justify-content:space-evenly; ;
@@ -119,10 +119,10 @@ strong:hover{
 }
 .card-content > ul > li {
     padding-bottom: 1%;
-  }
-  .key-features {
+}
+.key-features {
     list-style: none;
-  }
+}
 .project-1{
     background-image:url(../images/demo/HappinessExchange.png);
     background-position: center;
@@ -158,9 +158,48 @@ strong:hover{
     border: 1px solid #fca311;
     border-radius: 10%;
     color: #EAEAEA;
+    padding: 5px;
 }
-.temp-placeholder{
-    height: 300px;
+
+/* CONTACT SECTION */
+.contact-form {
+    background-color: #e5e5e58e;
+    border-radius: 1px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+}  
+.contact-form input, .contact-form textarea{
+    border: 1px solid #fca311;
+    border-radius: 1px;
+    color: #fca311;
+    margin-bottom: 10px;
+    padding: 10px;
+    width: 80%;
+}
+#form-btn{
+    background-color: #fca311;
+    border: none;
+    border-radius: 1px;
+    color: #fff;
+    cursor: pointer;
+    font-size: 16px;
+    padding: 10px;
+}
+.success {
+    background: #fff;
+    border-radius: 1px;
+    color: #24972a;
+    padding: 0.5rem;
+    text-align: center;
+}
+.error {
+    background: #fff;
+    border-radius: 1px;
+    color: #d01414;
+    padding: 0.5rem;
+    text-align: center;
 }
 
 /* MEDIA QUERIES  */
@@ -169,36 +208,30 @@ strong:hover{
     align-items: center;
     flex-direction: column;
   }
-
   .about-text-sharing-container-with-img, .about-text {
     width: 100%;
     text-align: center;
     padding: 10px;
   }
-
   .profile-pic-container {
     border: 1px solid #fca311;
     height: auto;
     margin: 0 auto 20px auto;
     width: 40%;
   }
-
   .profile-pic {
     height: auto;
     width: 100%;
   }
-
   .skills {
     flex-direction: column;
     align-items: center;
   }
-
   #technical-skills, 
   #soft-skills, 
   #organizational-skills {
     margin-bottom: 20px;
   }
-
   h1, h2, h3, p {
     text-align: center;
   }
