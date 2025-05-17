@@ -67,4 +67,3 @@ This project kickstarts my professional online presence and gives me a foundatio
 ### ✨ Let's connect!
 
 📬 [Email Me](mailto:thomas.a.sarai@gmail.com)
-
