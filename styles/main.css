@@ -207,52 +207,55 @@ strong:hover{
 
 /* MEDIA QUERIES  */
 @media screen and (max-width: 630px) {
-  .about-top-container, .main-content {
-    align-items: center;
-    flex-direction: column;
-  }
-  .about-text-sharing-container-with-img, .about-text {
-    width: 100%;
-    text-align: center;
-    padding: 10px;
-  }
-  .profile-pic-container {
-    border: 1px solid #fca311;
-    height: auto;
-    margin: 0 auto 20px auto;
-    width: 40%;
-  }
-  .profile-pic {
-    height: auto;
-    width: 100%;
-  }
-  .skills {
-    flex-direction: column;
-    align-items: center;
-  }
-  #technical-skills, 
-  #soft-skills, 
-  #organizational-skills {
-    margin-bottom: 20px;
-  }
-  h1, h2, h3, p {
-    text-align: center;
-  }
-  .card-content > p {
-    text-align: left;
-  }
-  .card-content > ul {
-    padding: 2%
-  }
-  .card-content > ul > li {
-    padding-bottom: 3%
-  }
-  .contact-form input, 
-  .contact-form textarea, 
-  #form-btn {
-    margin: 5px;
-    width: 90%;
-
-  }
+    body {
+        background: #000 url('/images/BLOB.svg') repeat-x center left fixed;
+        background-size:cover;
+    }
+    .about-top-container, .main-content {
+        align-items: center;
+        flex-direction: column;
+    }
+    .about-text-sharing-container-with-img, .about-text {
+        width: 100%;
+        text-align: center;
+        padding: 10px;
+    }
+    .profile-pic-container {
+        border: 1px solid #fca311;
+        height: auto;
+        margin: 0 auto 20px auto;
+        width: 40%;
+    }
+    .profile-pic {
+        height: auto;
+        width: 100%;
+    }
+    .skills {
+        flex-direction: column;
+        align-items: center;
+    }
+    #technical-skills, 
+    #soft-skills, 
+    #organizational-skills {
+        margin-bottom: 20px;
+    }
+    h1, h2, h3, p {
+        text-align: center;
+    }
+    .card-content > p {
+        text-align: left;
+    }
+    .card-content > ul {
+        padding: 2%
+    }
+    .card-content > ul > li {
+        padding-bottom: 3%
+    }
+    .contact-form input, 
+    .contact-form textarea, 
+    #form-btn {
+        margin: 5px;
+        width: 90%;
+    }
 
 }
