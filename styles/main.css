@@ -166,26 +166,29 @@ strong:hover{
     background-color: #e5e5e58e;
     border-radius: 1px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    color: #000;
     display: flex;
     flex-direction: column;
     padding: 20px;
+    margin: 20px;
 }  
-.contact-form input, .contact-form textarea{
+#message,
+#email,
+#name, 
+#form-btn{
     border: 1px solid #fca311;
     border-radius: 1px;
-    color: #fca311;
+    box-sizing: border-box;
+    color: #000;
     margin-bottom: 10px;
     padding: 10px;
-    width: 80%;
+    width: 90%;
 }
 #form-btn{
     background-color: #fca311;
     border: none;
     border-radius: 1px;
-    color: #fff;
     cursor: pointer;
-    font-size: 16px;
-    padding: 10px;
 }
 .success {
     background: #fff;
@@ -243,6 +246,13 @@ strong:hover{
   }
   .card-content > ul > li {
     padding-bottom: 3%
+  }
+  .contact-form input, 
+  .contact-form textarea, 
+  #form-btn {
+    margin: 5px;
+    width: 90%;
+
   }
 
 }
