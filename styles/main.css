@@ -157,7 +157,8 @@ strong:hover{
     background-color: #000;
     border: 1px solid #fca311;
     border-radius: 10%;
-    color: #EAEAEA;
+    color: #fff;
+    margin: 2px;
     padding: 5px;
 }
 
